@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4719ac72-f03d-4193-8e31-2bcd3d3e2cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/labs/a2/iframe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/labs/a2/svg/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/labs/a2/iframe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/labs/a2/iframe/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/labs/a2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/labs/a2/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,22 +62,22 @@
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/a2/iframe/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/a2/svg/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/a2/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/profile.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tuit.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/tuit.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.edit-profile.html" />
         <item itemvalue="JavaScript Debug.profile.html" />
-        <item itemvalue="JavaScript Debug.tuit.html" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +94,7 @@
       <workItem from="1642538891212" duration="740000" />
       <workItem from="1643223117424" duration="735000" />
       <workItem from="1643315160936" duration="1000" />
-      <workItem from="1643315262390" duration="4322000" />
+      <workItem from="1643315262390" duration="4830000" />
     </task>
     <servers />
   </component>
