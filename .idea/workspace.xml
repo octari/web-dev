@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4719ac72-f03d-4193-8e31-2bcd3d3e2cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/labs/a2/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/labs/a2/html/other-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/labs/a2/html/teslabot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/labs/a2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/edit-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/likes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/topic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/tuit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/tuits-and-replies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tuiter/tuits.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/tuiter" />
       <recent name="$PROJECT_DIR$/public/labs/a2/html" />
     </key>
   </component>
@@ -55,13 +65,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/a2/html/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.edit-profile.html">
+    <configuration name="edit-profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/edit-profile.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="navigation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/navigation.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/profile.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="tuit.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/tuit.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.edit-profile.html" />
+        <item itemvalue="JavaScript Debug.profile.html" />
+        <item itemvalue="JavaScript Debug.tuit.html" />
+        <item itemvalue="JavaScript Debug.navigation.html" />
+        <item itemvalue="JavaScript Debug.home.html" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +104,7 @@
       <workItem from="1642538891212" duration="740000" />
       <workItem from="1643223117424" duration="735000" />
       <workItem from="1643315160936" duration="1000" />
-      <workItem from="1643315262390" duration="1247000" />
+      <workItem from="1643315262390" duration="3371000" />
     </task>
     <servers />
   </component>
