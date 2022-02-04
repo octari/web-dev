@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore</title>
+    <link href="explore.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="explore-search">
+        <input placeholder="Search Tuiter" />
+        <a href="explore-settings.html"/>
+    </div>
+    <div class="explore-tabs">
+        <ul>
+            <li>
+                <a id="active-tab" href="">For you</a>
+            </li>
+            <li>
+                <a href="">Trending</a>
+            </li>
+            <li>
+                <a href="">COVID-19</a>
+            </li>
+            <li>
+                <a href="">News</a>
+            </li>
+            <li>
+                <a href="">Sports</a>
+            </li>
+            <li>
+                <a href="">Entertainment</a>
+            </li>
+        </ul>
+    </div>
+    <div class="explore-suggested-posts">
+        <div class="explore-suggested-posts__post">
+            <div>
+                <p class="explore-suggested-posts__annotations">
+                    Trending in Science
+                </p>
+                <p class="explore-suggested-posts__title">
+                    Starship
+                </p>
+                <p class="explore-suggested-posts__tweet-count">
+                    55.5K Tweets
+                </p>
+            </div>
+        </div>
+        <div class="explore-suggested-posts__post">
+            <div>
+                <p class="explore-suggested-posts__annotations">
+                    Sports Trending
+                </p>
+                <p class="explore-suggested-posts__title">
+                    Joe Rogan
+                </p>
+                <p class="explore-suggested-posts__tweet-count">
+                    5,218 Tweets
+                </p>
+            </div>
+        </div>
+
+        <div class="explore-suggested-posts__post">
+            <div>
+                <p class="explore-suggested-posts__annotations">
+                    The New York Times
+                    <span>Yesterday</span>
+                </p>
+                <p class="explore-suggested-posts__title">
+                    CNN's Cuomo conundrum: A star anchor with a brother in trouble
+                </p>
+            </div>
+            <img src="https://static01.nyt.com/images/2020/04/06/business/04chris-cuomo/0405JPBENSMITH-print-superJumbo-v2.jpg"
+            />
+        </div>
+
+        <div class="explore-suggested-posts__post">
+            <div>
+                <p class="explore-suggested-posts__annotations">
+                    <span>COVID-19</span>
+                    <span>&nbsp•&nbsp</span>
+                    <span>LIVE</span>
+                </p>
+                <p class="explore-suggested-posts__title">
+                    COVID-19: News and updates for Massachusetts
+                </p>
+            </div>
+            <img src="data:image/jpeg;base64,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"
+            />
+        </div>
+
+        <div class="explore-suggested-posts__post">
+            <div>
+                <p class="explore-suggested-posts__annotations">
+                    Bloomberg Opinion
+                    <span>Yesterday</span>
+                </p>
+                <p class="explore-suggested-posts__title">
+                    Thinking about getting a booster? Read this first.
+                </p>
+            </div>
+            <img src="http://content.health.harvard.edu/wp-content/uploads/2021/11/6916c010-400a-4c29-868a-1f1d8e644b65.jpg"
+            />
+        </div>
+
+        <div class="explore-suggested-posts__post">
+            <div>
+                <p class="explore-suggested-posts__annotations">
+                    <span>Trending in United States</span>
+                </p>
+                <p class="explore-suggested-posts__title">
+                    Wonder Bread
+                </p>
+                <p class="explore-suggested-posts__tweet-count">
+                    1,259 Tweets
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
