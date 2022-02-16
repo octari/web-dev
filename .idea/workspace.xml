@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4719ac72-f03d-4193-8e31-2bcd3d3e2cbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/labs/a4/bootstrap/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/labs/a4/bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/labs/a4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendors/fontawsome/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendors/fontawsome/attribution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web-dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web-dev.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tuiter/bookmarks.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/bookmarks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/labs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/labs/index.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +27,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/public/vendors/bootstrap/css/bootstrap.rtl.css.map" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="23t26rCRF8B1nhuEzz4xiECB0Xq" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/107322376" />
@@ -33,52 +52,44 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/vendors/fontawsome" />
+      <recent name="$PROJECT_DIR$/public/vendors/bootstrap" />
       <recent name="$PROJECT_DIR$/public/tuiter" />
       <recent name="$PROJECT_DIR$/public/labs/a2/html" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JavaScript Debug.bookmarks.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="bookmarks.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/bookmarks.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="explore.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/explore.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/a3/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/a4/bootstrap/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/a3/challenge/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/a4/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.bookmarks.html" />
         <item itemvalue="JavaScript Debug.explore.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -95,21 +106,22 @@
       <workItem from="1643315262390" duration="5160000" />
       <workItem from="1644005978354" duration="13745000" />
       <workItem from="1644089334534" duration="309000" />
-      <workItem from="1644174189209" duration="473000" />
+      <workItem from="1644174189209" duration="822000" />
+      <workItem from="1645030108909" duration="297000" />
+      <workItem from="1645031251205" duration="1520000" />
+      <workItem from="1645038088454" duration="2615000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
