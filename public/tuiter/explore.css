@@ -6,28 +6,29 @@ body {
     font-family: sans-serif;
 }
 
-#tuiter-nav {
+#tuiter-navbar {
     padding: 1em 1em 0;
 }
 
-#tuiter-nav .list-group {
+#tuiter-navbar .list-group {
     max-width: fit-content;
     margin: 0 0 0 auto;
 }
 
-#tuiter-nav .list-group-item {
+#tuiter-navbar .list-group-item {
     background-color: black;
     color: white;
     font-weight: 300;
     padding: 0.75em 1em;
 }
 
-#tuiter-nav .active {
+#tuiter-navbar .active {
     border: none;
+    background-color: #1E2023;
     font-weight: 700;
 }
 
-#tuiter-nav .btn-primary {
+#tuiter-navbar .btn-primary {
     border-radius: 2em;
     background-color: #00acee;
     padding: 0.5em 0;
@@ -35,7 +36,7 @@ body {
     font-weight: 500;
 }
 
-#tuiter-nav i {
+#tuiter-navbar i {
     width: 1em;
     height: 1em;
     margin-right: 0.5em;
@@ -67,9 +68,9 @@ body {
 }
 
 .tuiter-follow-recommendation .btn-light {
-    padding: 0.5em 1.5em;
+    padding: 0.5em 1em;
     border-radius: 2em;
-    font-size: 14px;
+    font-size: 12px;
     background-color: white;
     color: black;
 }
@@ -101,12 +102,62 @@ body {
     padding: 0.5em 1.5em;
 }
 
+#wd-explore-body {
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: dimgrey;
+    padding: 0;
+}
+
 .wd-explore-feed__post {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1em;
     margin-top: 1em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: dimgrey;
+}
+
+.wd-explore-feed__post img {
+    width: 4em;
+    height: 4em;
+    border-radius: 0.5em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.wd-explore-feed__annotations {
+    font-size: 12px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-explore-feed__author {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+.wd-explore-feed__title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#wd-explore-featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 32em;
+    padding: 1em;
+    background-image:
+            url("https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg");
+    background-size: cover;
+    background-position: center;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: dimgrey;
 }
 
 .wd-explore-tabs ul {
@@ -135,7 +186,7 @@ body {
 .wd-explore-tabs #active-tab,
 .wd-explore-tabs #active-tab:visited {
     color: rgb(29, 161, 242);
-    border-bottom: 3px solid rgb(29, 161, 242);
+    border-bottom: 1px solid #1E2023;
 }
 
 .wd-explore-suggested-posts__post {
@@ -152,14 +203,6 @@ body {
     border-radius: 1em;
     margin: 0.75em 0 0.75em 2em;
     object-fit: cover;
-}
-
-.wd-explore-feed__post img {
-    width: 4em;
-    height: 4em;
-    border-radius: 0.5em;
-    object-fit: cover;
-    object-position: center;
 }
 
 .wd-explore-suggested-posts__annotations {

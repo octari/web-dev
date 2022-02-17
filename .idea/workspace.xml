@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4719ac72-f03d-4193-8e31-2bcd3d3e2cbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tuiter/explore-settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/explore-settings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tuiter/explore.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/explore.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tuiter/explore.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/explore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tuiter/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/navigation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <workItem from="1644174189209" duration="822000" />
       <workItem from="1645030108909" duration="297000" />
       <workItem from="1645031251205" duration="1520000" />
-      <workItem from="1645038088454" duration="10160000" />
+      <workItem from="1645038088454" duration="11575000" />
     </task>
     <servers />
   </component>
