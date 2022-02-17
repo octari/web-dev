@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4719ac72-f03d-4193-8e31-2bcd3d3e2cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/labs/a4/bootstrap/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/labs/a4/bootstrap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/labs/a4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendors/fontawsome/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendors/fontawsome/attribution.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web-dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web-dev.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/labs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/labs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tuiter/explore-settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/explore-settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tuiter/explore.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/explore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tuiter/explore.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/explore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tuiter/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/navigation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +53,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/tuiter" />
       <recent name="$PROJECT_DIR$/public/vendors/fontawsome" />
       <recent name="$PROJECT_DIR$/public/vendors/bootstrap" />
-      <recent name="$PROJECT_DIR$/public/tuiter" />
       <recent name="$PROJECT_DIR$/public/labs/a2/html" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
-    <configuration name="bookmarks.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/bookmarks.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.explore.html">
     <configuration name="explore.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/explore.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -79,13 +72,16 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/labs/a4/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="navigation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/public/tuiter/navigation.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.explore.html" />
+        <item itemvalue="JavaScript Debug.navigation.html" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.bookmarks.html" />
-        <item itemvalue="JavaScript Debug.explore.html" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +105,7 @@
       <workItem from="1644174189209" duration="822000" />
       <workItem from="1645030108909" duration="297000" />
       <workItem from="1645031251205" duration="1520000" />
-      <workItem from="1645038088454" duration="2615000" />
+      <workItem from="1645038088454" duration="10160000" />
     </task>
     <servers />
   </component>

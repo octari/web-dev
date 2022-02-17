@@ -6,9 +6,91 @@ body {
     font-family: sans-serif;
 }
 
+#tuiter-nav {
+    padding: 1em 1em 0;
+}
+
+#tuiter-nav .list-group {
+    max-width: fit-content;
+    margin: 0 0 0 auto;
+}
+
+#tuiter-nav .list-group-item {
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    padding: 0.75em 1em;
+}
+
+#tuiter-nav .active {
+    border: none;
+    font-weight: 700;
+}
+
+#tuiter-nav .btn-primary {
+    border-radius: 2em;
+    background-color: #00acee;
+    padding: 0.5em 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#tuiter-nav i {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    text-align: center;
+}
+
+#tuiter-follow .card {
+    width: fit-content;
+    color: white;
+    background-color: #1E2023;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.tuiter-follow-recommendation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.tuiter-follow-recommendation img {
+    width: 3em;
+    height: 3em;
+    border-radius: 1.5em;
+    object-fit: cover;
+}
+
+.tuiter-follow-recommendation .btn-light {
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+}
+.profile-summary {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.profile-summary img {
+    margin-right: 0.5em;
+}
+
+.profile-summary b {
+    color: white;
+}
+
 .wd-explore-search {
     display: flex;
     align-items: center;
+    padding: 1em 1em 0;
 }
 
 .wd-explore-search input {
@@ -17,6 +99,14 @@ body {
     border-radius: 1em;
     border: none;
     padding: 0.5em 1.5em;
+}
+
+.wd-explore-feed__post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    margin-top: 1em;
 }
 
 .wd-explore-tabs ul {
@@ -64,6 +154,14 @@ body {
     object-fit: cover;
 }
 
+.wd-explore-feed__post img {
+    width: 4em;
+    height: 4em;
+    border-radius: 0.5em;
+    object-fit: cover;
+    object-position: center;
+}
+
 .wd-explore-suggested-posts__annotations {
     font-size: 13px;
     color: rgb(110, 118, 125);
@@ -83,3 +181,4 @@ body {
     font-size: 13px;
     color: rgb(110, 118, 125);
 }
+
