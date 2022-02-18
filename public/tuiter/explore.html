@@ -11,8 +11,7 @@
 <div class="container">
     <div class="row">
         <div id="tuiter-navbar"
-            class="col-2 col-sm-3 col-md-2 col-lg-2 col-xl-2 col-xxl-2"
-        >
+            class="col-2 col-sm-3 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action">
                     <i class="fab fa-twitter fa-lg"></i>
@@ -53,16 +52,19 @@
             </div>
         </div>
         <div id="wd-explore-body"
-             class="col-10 col-sm-9 col-md-10 col-lg-6 col-xl-6 col-xxl-7"
-        >
+             class="col-10 col-sm-9 col-md-10 col-lg-6 col-xl-6 col-xxl-7">
             <div class="wd-explore-search">
                 <div class="input-group">
                     <span class="input-group-text">
                       <i class="fa fa-search wd-color-light-grey"></i>
                     </span>
                     <input type="text" class="form-control" placeholder="Search Tuiter"/>
+
                 </div>
-                <a href="explore-settings.html"></a>
+                <div>
+                    <a class="setting-icon-style"  href="explore-settings.html"><i class="fa fa-cog fa-2x"></i></a>
+                </div>
+
             </div>
 
             <nav id="wd-explore-tabs" class="mt-2">
@@ -85,21 +87,22 @@
                 </ul>
             </nav>
 
-            <div id="wd-explore-feed">
+            <div id="wd-explore">
                 <div id="wd-explore-featured">
                     <h4>SpaceX's Starship</h4>
+<!--                    <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg"/>-->
                 </div>
-                <div class="wd-explore-feed__post">
+                <div class="wd-explore-post">
                     <div>
-                        <p class="wd-explore-feed__annotations">
+                        <p class="wd-explore-annotations">
                             <span>Web Development</span>
                         </p>
-                        <p class="wd-explore-feed__annotations">
+                        <p class="wd-explore-annotations">
                             <span class="wd-explore-feed__author">ReactJS</span>
                             <span>&nbsp•&nbsp</span>
                             <span>2h</span>
                         </p>
-                        <p class="wd-explore-feed__title">
+                        <p class="wd-explore-title">
                             React.js is a component based front end library that makes it
                             easy to build Single Page Applications or SPAs
                         </p>
@@ -107,14 +110,14 @@
                     <img src="https://www.ethode.com/contentAsset/raw-data/84e3be24-58bc-499c-9d50-f8088158f11a/image"/>
                 </div>
 
-                <div class="wd-explore-feed__post">
+                <div class="wd-explore-post">
                     <div>
-                        <p class="wd-explore-feed__annotations">
+                        <p class="wd-explore-annotations">
                             <span class="wd-explore-feed__author">Javascript</span>
                             <span>&nbsp•&nbsp</span>
                             <span>2h</span>
                         </p>
-                        <p class="wd-explore-feed__title">
+                        <p class="wd-explore-title">
                             JavaScript is a programming language that can run on browsers as
                             well as desktops
                         </p>
@@ -122,22 +125,22 @@
                     </div>
                     <img src="https://www.feroot.com/wp-content/uploads/1200px-Unofficial_JavaScript_logo_2.svg.png"/>
                 </div>
-                <div class="wd-explore-feed__post">
+                <div class="wd-explore-post">
                     <div>
-                        <p class="wd-explore-feed__annotations">
+                        <p class="wd-explore-annotations">
                             <span>Web Development</span>
                         </p>
-                        <p class="wd-explore-feed__title">jQuery</p>
+                        <p class="wd-explore-title">jQuery</p>
                         <p class="wd-explore-feed__tweet-count">123K Tweets</p>
                     </div>
                     <img src="https://miro.medium.com/max/285/1*QR2SBNwG75LyY5uwqWpN3A.png"/>
                 </div>
-                <div class="wd-explore-feed__post">
+                <div class="wd-explore-post">
                     <div>
-                        <p class="wd-explore-feed__annotations">
+                        <p class="wd-explore-annotations">
                             <span>Web Development</span>
                         </p>
-                        <p class="wd-explore-feed__annotations">
+                        <p class="wd-explore-annotations">
                             <span class="wd-explore-feed__author">NodeJS</span>
                             <span>&nbsp•&nbsp</span>
                             <span>2h</span>
@@ -147,11 +150,11 @@
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfOfptrC48Ggz3JC23XVvfUc6qPqMrkrGGZ5ajLqLDARAP15-8lnl4ETCV_BNdMoW7TjU&usqp=CAU"/>
                 </div>
             </div>
+
         </div>
         <div id="tuiter-follow"
-             class="d-none d-lg-block col-lg-4 col-xl-4 col-xxl-3"
-        >
-            <div class="card">
+             class="d-none d-lg-block col-lg-4 col-xl-4 col-xxl-3">
+            <div class="pseudo-card">
                 <h5>Who to follow</h5>
                 <div class="tuiter-follow-recommendation">
                     <div class="profile-summary">
