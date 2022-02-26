@@ -52,14 +52,14 @@ body {
 
 }
 
-/*#tuiter-follow .card {*/
-/*    width: fit-content;*/
-/*    color: white;*/
-/*    background-color: #1E2023;*/
-/*    margin: 1em;*/
-/*    padding: 1em;*/
-/*    border-radius: 1em;*/
-/*}*/
+#tuiter-follow .card {
+    width: fit-content;
+    color: white;
+    background-color: #1E2023;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
 
 #tuiter-follow h5 {
     font-weight: 600;
@@ -152,7 +152,7 @@ body {
     color: rgb(110, 118, 125);
 }
 
-.wd-explore-feed__author {
+.wd-explore-feed-author {
     font-size: 14px;
     color: white;
     font-weight: 500;
@@ -208,7 +208,7 @@ body {
     border-bottom: 1px solid #1E2023;
 }
 
-.wd-explore-suggested-posts__post {
+.wd-explore-suggested-posts-post {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -216,7 +216,7 @@ body {
     border: 1px solid rgb(47, 51, 54);
 }
 
-.wd-explore-suggested-posts__post img {
+.wd-explore-suggested-posts-post img {
     width: 100px;
     height: 100px;
     border-radius: 1em;
@@ -224,26 +224,31 @@ body {
     object-fit: cover;
 }
 
-.wd-explore-suggested-posts__annotations {
+.wd-explore-suggested-posts-annotations {
     font-size: 13px;
     color: rgb(110, 118, 125);
 }
 
-.wd-explore-suggested-posts__author {
+.wd-explore-suggested-posts-author {
     color: white;
     font-weight: 500;
 }
 
-.wd-explore-suggested-posts__title {
+.wd-explore-suggested-posts-title {
     font-size: 16px;
     font-weight: 600;
 }
 
-.wd-explore-suggested-posts__tweet-count {
+.wd-explore-suggested-posts-tweet-count {
     font-size: 13px;
     color: rgb(110, 118, 125);
 }
 
 .setting-icon-style {
     margin-left: 5px;
+}
+
+.wd-card-img-right {
+    width: 84.9px;
+    height: 84.9px;
 }
