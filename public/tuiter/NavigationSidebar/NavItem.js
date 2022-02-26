@@ -1,7 +1,7 @@
 const navItems = [
     {
         title: "Home",
-        href: "../home.html",
+        href: "../HomeScreen/index.html",
         iconClasses: "fab fa-twitter"
     },
     {
