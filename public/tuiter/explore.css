@@ -46,7 +46,7 @@ body {
 
 .pseudo-card {
     background-color: #1E2023;
-    padding: 20px;
+    padding: 10px;
     border-radius: 25px;
     width: 100%;
 
@@ -72,11 +72,17 @@ body {
 }
 
 .tuiter-follow-recommendation {
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5em;
+    /*margin-bottom: 1.5em;*/
+    border-style: solid;
+    border-width: thin;
+    border-color: dimgrey;
+
 }
 
 .tuiter-follow-recommendation img {
@@ -97,6 +103,15 @@ body {
     display: flex;
     align-items: center;
     font-size: 14px;
+}
+
+.profile-summary-follow{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+
 }
 
 .profile-summary img {
