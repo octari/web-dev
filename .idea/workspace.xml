@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4719ac72-f03d-4193-8e31-2bcd3d3e2cbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tuiter/ExploreComponent/ExploreComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/ExploreComponent/ExploreComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,8 @@
       <workItem from="1645139728735" duration="211000" />
       <workItem from="1645140699512" duration="6006000" />
       <workItem from="1645812025121" duration="15179000" />
-      <workItem from="1645893642049" duration="3291000" />
+      <workItem from="1645893642049" duration="3394000" />
+      <workItem from="1646089960217" duration="292000" />
     </task>
     <servers />
   </component>
