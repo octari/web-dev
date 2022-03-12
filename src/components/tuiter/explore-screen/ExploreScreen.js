@@ -4,7 +4,7 @@ import NavigationSidebar from "../NavigationSidebar/index.js";
 import ExploreComponent from "./ExploreComponent.js";
 import WhoToFollowList from "../who-to-follow-list/WhoToFollowListItem.js";
 
-import "../explore.css"
+import "../../../explore.css"
 
 const ExploreScreen = () => {
 
@@ -24,7 +24,6 @@ const ExploreScreen = () => {
             </div>
         </div>
     )
-
 }
 
 export default ExploreScreen

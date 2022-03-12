@@ -1,13 +1,15 @@
 import React from 'react';
 import who from "./who.json";
 
-import "../explore.css"
+import "../../../explore.css"
 
 const WhoToFollowListItem = ({ who: { avatarIcon, userName, handle } }) => {
     return(
     <div className="tuiter-follow-recommendation">
       <div className="profile-summary">
-        <img src={avatarIcon} alt={`${userName}'s avatar`} />
+        <img
+            src={avatarIcon}
+            alt={`${userName}'s avatar`} />
         <div>
           <p><b>{userName}</b></p>
           <p>@{handle}</p>

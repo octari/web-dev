@@ -11,10 +11,7 @@ const NavItem = ({ item: { title, href, iconClasses }, active: { active } }) => 
     )
 }
 
-const NavigationSidebar = ( {
-                                active = 'explore'
-                            }
-                        ) => {
+const NavigationSidebar = (active = 'explore') => {
     return (
         <>
             <div className="list-group">
@@ -22,14 +19,13 @@ const NavigationSidebar = ( {
                     <i className="fab fa-twitter fa-lg"></i>
                 </Link>
                 {items.map(item => {
-                    return <NavItem item={item} active={active} key={item.title} />
+                    return <NavItem item={item} active={active} key={item.title}/>
                 })}
                 <button type="button" className="btn btn-primary btn-block rounded-pill mt-2">Tuit
                 </button>
             </div>
         </>
-
-  );
+    )
 }
 
 export default NavigationSidebar;
