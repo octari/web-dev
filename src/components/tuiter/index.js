@@ -1,5 +1,11 @@
 import React from "react";
 import {Link} from "react-router-dom";
+// import NavigationSidebar from "./NavigationSidebar";
+// import WhoToFollowList from "./who-to-follow-list/WhoToFollowListItem";
+// import PostSummaryList from "./post-summary-list";
+import ExploreScreen from "./explore-screen/ExploreScreen";
+
+import "./explore.css"
 
 const Index = () => {
     return(
@@ -11,6 +17,11 @@ const Index = () => {
             <Link to="/">
                 Labs
             </Link>
+
+            {/*<NavigationSidebar active="home"/>*/}
+            {/*<WhoToFollowList/>*/}
+            {/*<PostSummaryList/>*/}
+            <ExploreScreen/>
         </>
     )
 };
