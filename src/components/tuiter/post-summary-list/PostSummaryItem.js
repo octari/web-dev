@@ -9,7 +9,7 @@ const defaultPost = {
     image: "https://www.ethode.com/contentAsset/raw-data/84e3be24-58bc-499c-9d50-f8088158f11a/image"
 }
 
-const PostSummaryItem = ({ image, time, title, topic, userName } = defaultPost) => {
+const PostSummaryItem = ({ post: { image, time, title, topic, userName } = defaultPost }) => {
     return (
     <div className="wd-explore-post">
       <div>

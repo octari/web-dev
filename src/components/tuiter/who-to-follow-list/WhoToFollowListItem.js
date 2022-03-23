@@ -1,5 +1,6 @@
 import React from 'react';
-import who from "./who.json";
+// import who from "./who.json";
+import { useSelector } from "react-redux";
 
 import "../../../explore.css"
 
@@ -21,6 +22,7 @@ const WhoToFollowListItem = ({ who: { avatarIcon, userName, handle } }) => {
 }
 
 const WhoToFollowList = () => {
+    const who = useSelector((state) => state.who);
   return (
       <div
           id="tuiter-follow-recommendation"
