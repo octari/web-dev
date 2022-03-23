@@ -28,7 +28,7 @@ const TuitStats = ({ post }) => {
                 <i className="fa-solid fa-retweet"/>
                 {numFormatter(stats.retuits)}
             </div>
-            <div>
+            <div onClick={() => likeTuit(post)}>
                 <i className="far fa-heart"/>
                 {numFormatter(stats.likes)}
             </div>

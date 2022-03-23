@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4719ac72-f03d-4193-8e31-2bcd3d3e2cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/TuitStats/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/WhatsHappening/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/WhatsHappening/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/profile-screen/EditProfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/profile-screen/ViewProfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/profile-screen/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/profile-screen/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/reducers/profile-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/reducers/profile.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/reducers/tuits-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/reducers/whoToFollow-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/NavigationSidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/NavigationSidebar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/NavigationSidebar/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/NavigationSidebar/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/explore-screen/ExploreScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/explore-screen/ExploreScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/home-screen/PostItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/home-screen/PostItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/home-screen/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/home-screen/PostList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/home-screen/homePosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/home-screen/homePosts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/home-screen/homeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/home-screen/homeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/post-summary-list/PostSummaryItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/post-summary-list/PostSummaryItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/post-summary-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/post-summary-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/who-to-follow-list/WhoToFollowListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/who-to-follow-list/WhoToFollowListItem.js" afterDir="false" />
-    </list>
+    <list default="true" id="4719ac72-f03d-4193-8e31-2bcd3d3e2cbf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +127,7 @@
       <workItem from="1647036323319" duration="2864000" />
       <workItem from="1647039929160" duration="10717000" />
       <workItem from="1647062759099" duration="3258000" />
-      <workItem from="1648054862968" duration="9183000" />
+      <workItem from="1648054862968" duration="9322000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from "react-redux";
 import PostItem from "./PostItem.js";
-import posts from "./homePosts.json"
+// import posts from "./homePosts.json"
 
 const PostList = () => {
     const posts = useSelector(state => state.tuits);
