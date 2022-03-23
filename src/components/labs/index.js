@@ -6,6 +6,8 @@ import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
 import TodoList from "./todo/TodoList";
 
+import ReduxExamples from "./redux-examples";
+
 const Index = () => {
     return(
         <div>
@@ -18,6 +20,7 @@ const Index = () => {
                 Tuiter
             </Link>
 
+            <ReduxExamples/>
             <TodoList />
             <ConditionalOutput/>
             <Styles/>
