@@ -12,7 +12,7 @@ const numFormatter = (num) => {
 }
 
 const TuitStats = ({ post }) => {
-    const { stats, liked } = post
+    const { stats } = post
     const dispatch = useDispatch();
     const likeTuit = (tuit) => {
         dispatch({ type: 'like-tuit', tuit });
@@ -29,7 +29,7 @@ const TuitStats = ({ post }) => {
                 {numFormatter(stats.retuits)}
             </div>
             <div onClick={() => likeTuit(post)}>
-                <i className="far fa-heart"/>
+                <i className="far fa-heart" />
                 {numFormatter(stats.likes)}
             </div>
             <div>
