@@ -1,5 +1,8 @@
+
 import { useDispatch } from "react-redux";
-import React from "react";
+import React, { useState }  from "react";
+import { updateTuit } from "../reducers/tuits-actions";
+
 import "./index.css"
 
 const numFormatter = (num) => {
@@ -12,12 +15,26 @@ const numFormatter = (num) => {
     }
 }
 
-const TuitStats = ({ post }) => {
-    const { stats, liked } = post
+const TuitStats = ({ tuit }) => {
+
+    const [stats, setStats] = useState(tuit.stats)
+    const [liked, setLiked] = useState(tuit.liked)
+
     const dispatch = useDispatch();
-    const likeTuit = (tuit) => {
-        dispatch({ type: 'like-tuit', tuit });
-    };
+    const likeTuit = () => {
+        const newStats = { ...stats, likes: liked ? stats.likes - 1 : stats.likes + 1 }
+        setStats(newStats)
+
+        const newLiked = !liked
+        setLiked(newLiked)
+
+        const newTuit = {
+            ...tuit,
+            stats: newStats,
+            liked: newLiked
+        }
+        updateTuit(dispatch, newTuit)
+    }
 
     return (
         <div className="wd-post-interactions d-flex justify-content-between">
@@ -29,7 +46,7 @@ const TuitStats = ({ post }) => {
                 <i className="fa-solid fa-retweet"/>
                 {numFormatter(stats.retuits)}
             </div>
-            <div onClick={() => likeTuit(post)} >
+            <div onClick={() => likeTuit()} >
                 {liked ? <i className="far fa-heart icon-red"/> : <i className="far fa-heart" />}
                 {numFormatter(stats.likes)}
             </div>

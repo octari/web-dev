@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
 import { combineReducers, createStore } from "redux";
 import { Provider } from "react-redux";
-import React from "react";
+
+import whoToFollowReducer from "./reducers/whoToFollow-reducer";
 import tuitsReducer from "./reducers/tuits-reducer";
 import profileReducer from "./reducers/profile-reducer"
 import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowList from "./who-to-follow-list/WhoToFollowListItem";
 
 import "../../explore.css";
-import whoToFollowReducer from "./reducers/whoToFollow-reducer";
+
 
 const reducer = combineReducers({
                                     tuits: tuitsReducer, who: whoToFollowReducer, profile: profileReducer

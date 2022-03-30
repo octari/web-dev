@@ -1,8 +1,8 @@
 import React from 'react'
 
 // import NavigationSidebar from "../NavigationSidebar/index";
-import PostList from "./PostList";
-import WhatsHappening from "../WhatsHappening";
+import TuitList from "./TuitList";
+import WhatsHappening from "../WhatsHappening/index";
 // import PostSummaryList from "../post-summary-list/index";
 
 import '../../../explore.css'
@@ -10,10 +10,10 @@ import '../../../explore.css'
 const HomeScreen = () => {
     return (
         <div
-            id="wd-home-body"
+            id="body"
         >
             <WhatsHappening/>
-            <PostList />
+            <TuitList />
         </div>
     )
 }
