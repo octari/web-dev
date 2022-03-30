@@ -4,7 +4,7 @@ import React from 'react'
 import ExploreComponent from "./ExploreComponent.js";
 // import WhoToFollowList from "../who-to-follow-list/WhoToFollowListItem.js";
 
-import "../../../explore.css"
+import "./explore.css"
 
 const ExploreScreen = () => {
 

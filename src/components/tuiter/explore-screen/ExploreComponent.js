@@ -9,14 +9,14 @@ const ExploreComponent = () => {
                 <div className="wd-explore-search">
                     <div className="input-group">
                               <span className="input-group-text">
-                                  <i className="fa fa-search wd-color-light-grey"></i>
+                                  <i className="fa fa-search wd-color-light-grey"/>
                               </span>
                         <input type="text" className="form-control" placeholder="Search Tuiter"/>
 
                     </div>
                     <div>
                         <a className="setting-icon-style" href="explore-settings.html"><i
-                            className="fa fa-cog fa-2x"></i></a>
+    className="fa fa-cog fa-2x"/></a>
                     </div>
 
                 </div>

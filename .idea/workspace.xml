@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4719ac72-f03d-4193-8e31-2bcd3d3e2cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/reducers/tuits-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tuiter/services/tuit-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tuiter/explore-screen/explore.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/TuitStats/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/TuitStats/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/WhatsHappening/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/WhatsHappening/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/home-screen/PostItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/home-screen/TuitItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/home-screen/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/home-screen/TuitList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/home-screen/homeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/home-screen/homeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tuiter/explore-screen/ExploreComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/explore-screen/ExploreComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tuiter/explore-screen/ExploreScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/explore-screen/ExploreScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tuiter/post-summary-list/PostSummaryItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/post-summary-list/PostSummaryItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/tuiter/post-summary-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/post-summary-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/profile-screen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/profile-screen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/reducers/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/reducers/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tuiter/reducers/tuits-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tuiter/reducers/tuits-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/explore.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/explore.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +137,8 @@
       <workItem from="1648054862968" duration="9322000" />
       <workItem from="1648067086320" duration="3619000" />
       <workItem from="1648657780450" duration="56000" />
-      <workItem from="1648657858301" duration="5017000" />
+      <workItem from="1648657858301" duration="5559000" />
+      <workItem from="1648666503510" duration="2940000" />
     </task>
     <servers />
   </component>

@@ -22,13 +22,13 @@
 import React from 'react'
 
 import PostSummaryItem from "./PostSummaryItem.js";
-import posts from './posts.json'
+import tuits from './posts.json'
 
 const PostSummaryList = () => {
     return (
         <div id="wd-explore-tuit-list">
-            {posts.map(post => {
-                return <PostSummaryItem tuit={post} />
+            {tuits.map(tuit => {
+                return <PostSummaryItem tuit={tuit} />
             })}
         </div>
     );
