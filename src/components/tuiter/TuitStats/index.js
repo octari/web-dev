@@ -40,15 +40,15 @@ const TuitStats = ({ tuit }) => {
         <div className="wd-post-interactions d-flex justify-content-between">
             <div>
                 <i className="far fa-regular fa-comment"/>
-                {numFormatter(stats.replies)}
+                {stats && numFormatter(stats.replies)}
             </div>
             <div>
                 <i className="fa-solid fa-retweet"/>
-                {numFormatter(stats.retuits)}
+                {stats && numFormatter(stats.retuits)}
             </div>
             <div onClick={() => likeTuit()} >
                 {liked ? <i className="far fa-heart icon-red"/> : <i className="far fa-heart" />}
-                {numFormatter(stats.likes)}
+                {stats && numFormatter(stats.likes)}
             </div>
             <div>
                 <i className="far fa-share-square"/>

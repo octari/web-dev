@@ -18,7 +18,7 @@ const NavigationBar = () => {
         <>
             <Link to='/hello' className='d-block'>HelloWorld</Link>
             <Link to='/labs' className='d-block'>Labs</Link>
-            <Link to='/tuiter/' className='d-block'>Tuiter</Link>
+            <Link to='/tuiter' className='d-block'>Tuiter</Link>
         </>
     )
 }

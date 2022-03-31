@@ -12,14 +12,14 @@ const TuitItem = ({ tuit }) => {
   return (
       <div className="wd-post-item d-flex">
         <img  className="wd-post-profileImage"
-              src={postedBy.profileImgSrc || DEFAULT_PROFILE}
-              alt={`${postedBy.username}'s profile`}
+              src={postedBy && postedBy.profileImgSrc || DEFAULT_PROFILE}
+              alt={postedBy &&`${postedBy.username}'s profile`}
         />
         <div>
           <div>
             <p className="wd-post annotations">
-              <span className="wd-postauthor">{postedBy.username}</span>
-                <span>@{postedBy.handle}</span>
+              <span className="wd-postauthor">{postedBy && postedBy.username}</span>
+                <span>@{postedBy && postedBy.handle}</span>
               {timeStamp &&
                <span>&nbsp;•&nbsp;{timeStamp}</span>
               }
