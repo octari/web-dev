@@ -12,7 +12,7 @@ const TuitItem = ({ tuit }) => {
   return (
       <div className="wd-post-item d-flex">
         <img  className="wd-post-profileImage"
-              src={postedBy && postedBy.profileImgSrc || DEFAULT_PROFILE}
+              src={postedBy && (postedBy.profileImgSrc || DEFAULT_PROFILE)}
               alt={postedBy &&`${postedBy.username}'s profile`}
         />
         <div>
